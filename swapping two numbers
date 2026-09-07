@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{ int a,b,c=0;
+scanf("%d",&a);
+scanf("%d",&b);
+c=a;
+a=b;
+b=c;
+printf("the number a=%d\n",a);
+printf("the number b=%d",b);
+}
